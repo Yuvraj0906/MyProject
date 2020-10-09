@@ -1,6 +1,9 @@
 * {
 	box-sizing: border-box;
-
+}
+body {
+	margin: 0;
+	padding: 0;
 }
 h1 {
 	text-align: center;
@@ -10,57 +13,48 @@ h1 {
 }
 
 .row div {
-	
-	margin: 10px;
+	padding-left: 10px;
 	float: left;
-	width: 31%;
+	width: 33.3%;
 	border: 1px solid black;
 	background-color: lightblue;
 }
 p {
 	text-align: left;
+	clear:right;
 }
 .head {
 	font-size: 125%;
 	border: 1px solid black;
-	top: -21px;
 	color: black;
 	font-family: "Lucida Console", Courier, monospace;
 }
 .C {
 	
 	background-color:#A93226; 
-	text-align: right;
+	float: right;
 }
 .V {
 	
 	background-color:#27AE60; 
-	text-align: right;
+	float: right;
 }
 .S {
 	
 	background-color:#F1C40F ; 
-	text-align: right;
+	float:right;
 }
 @media (min-width:768px) and (max-width: 991px) {
 	.row div {
-	
-	margin: 10px;
-	float: left;
-	width: 48%;
-	border: 1px solid black;
-	background-color: lightblue;
-}
+		width: 50%;
+	}
 }
 
 
 @media (max-width:767px) {
 	.row div {
 	
-	margin: 10px;
-	float: left;
-	width: 98%;
-	border: 1px solid black;
-	background-color: lightblue;
+	width: 100%
 }
 }
+
